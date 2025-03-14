@@ -4,6 +4,7 @@ body {
 
 
 .first {
+    max-width: max-content;
 
 }
 
@@ -17,4 +18,8 @@ body {
 
 .bigblue {
     background-color: rgb(152, 207, 207);
+    margin: 10px;
+    padding: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
 }

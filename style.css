@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(69, 76, 210);
+    background-color: white;
+    
 }
 
 .container {
@@ -12,14 +13,7 @@ body {
     margin: 10px;
     background-color: rgb(210, 194, 69);
     box-sizing: border-box;
-}
-
-.esticar {
-    padding-bottom: 320px;
-}
-
-.esticar2 {
-    padding-bottom: 320px;
+    border-radius: 10px;
 }
 
 .alongar {
@@ -33,6 +27,6 @@ body {
 .azul {
     padding: 100px;
     margin: 10px;
-    background-color: rgb(69, 76, 210);
+    background-color: white;
     box-sizing: border-box;
 }

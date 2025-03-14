@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(69, 76, 210);
+}
+
+.container {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+.amarelo {
+    padding: 100px;
+    margin: 10px;
+    background-color: rgb(210, 194, 69);
+    box-sizing: border-box;
+}
+
+.esticar {
+    padding-bottom: 320px;
+}
+
+.esticar2 {
+    padding-bottom: 320px;
+}
+
+.alongar {
+    padding-right: 320px;
+}
+
+.flexivel {
+    display: flex;
+}
+
+.azul {
+    padding: 100px;
+    margin: 10px;
+    background-color: rgb(69, 76, 210);
+    box-sizing: border-box;
+}

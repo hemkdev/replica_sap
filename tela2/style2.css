@@ -1,32 +1,20 @@
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.first {
+
+}
+
+.second {
     
 }
 
-.container {
-    max-width: 660px;
-    margin: 0 auto;
+.third {
+    
 }
 
-.amarelo {
-    padding: 100px;
-    margin: 10px;
-    background-color: rgb(210, 194, 69);
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-
-.alongar {
-    padding-right: 320px;
-}
-
-.flexivel {
-    display: flex;
-}
-
-.azul {
-    padding: 100px;
-    margin: 10px;
-    background-color: white;
-    box-sizing: border-box;
+.bigblue {
+    background-color: rgb(152, 207, 207);
 }

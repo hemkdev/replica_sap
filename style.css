@@ -1,23 +1,28 @@
 body {
     background-color: white;
-    
 }
 
 .container {
-    max-width: 660px;
+    
     margin: 0 auto;
 }
 
 .amarelo {
     padding: 100px;
     margin: 10px;
-    background-color: rgb(210, 194, 69);
+    background-color: rgb(176, 206, 250);
     box-sizing: border-box;
     border-radius: 10px;
 }
 
 .alongar {
-    padding-right: 320px;
+    padding-right: 1150px;
+    padding-bottom: 200px;
+}
+
+.alongar2 {
+    padding-right: 500px;
+    padding-bottom: 200px;
 }
 
 .flexivel {

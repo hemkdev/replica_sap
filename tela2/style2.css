@@ -1,22 +1,444 @@
 * {
-    margin: 0;
+    margin: 5 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    gap: 70px;
+}
+
+.container-two {
+    display: flex;
+    gap: 70px;
+    margin-top: 30px;
+}
+
+.entrada {
+    width: 1300px;
+    height: 350px;
+    background-color: #d9e9fd;
+    border-radius: 7px;
+}
+
+.text-entrada {
+    position: relative;
+    bottom: 280px;
+    margin-left: 350px;
+    width: 500px;
+    height: 290px;
+}
+
+.text-quebrar {
+    position: relative;
+    top: 40px;
+}
+
+.text-entrada h3 {
+    font-size: 28px;
+    color: #0d34a0;
+}
+
+.photo-img {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 290px;
+    height: 300px;
+}
+
+.photo-img img {
+    width: 260px;
+    height: 300px;
+}
+
+.fala-comigo {
+    margin-top: 55px;
+    width: 170px;
+    height: 50px;
+    background-color: #0d34a0;
+    ;
+    border-radius: 20px;
+}
+
+.fala-comigo h4 {
+    position: relative;
+    top: 14px;
+    right: 19px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.fala-comigo-white {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-left: 130px;
+    bottom: 50px;
+}
+
+.fala-comigo-white img {
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    bottom: 50px;
+}
+
+.barras-laterais {
+    position: relative;
+    bottom: 310px;
+    left: 450px;
+    width: 350px;
+    height: 45px;
+    margin-bottom: 10px;
+    background-color: #0d34a0;
+    border-radius: 20px;
+}
+
+.barras-laterais span {
+    position: relative;
+    top: 12px;
+    left: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+}
+
+.branca-laterais {
+    position: relative;
+    left: 345px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
     background-color: white;
+    border-radius: 50px;
 }
 
-section {
-    margin: 32px 0;
-    padding: 32px;
-    background-color: rgb(136, 184, 206);
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+.branca-laterais img {
+    left: 325px;
+    bottom: 51px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
 }
 
 
+.status {
+    width: 740px;
+    height: 350px;
+    background-color: #d9e9fd;
+    border-radius: 7px;
+}
+
+.status p {
+    margin-top: 10px;
+    margin-left: 14px;
+    font-size: 22px;
+    color: #0d34a0;
+}
+
+.entrada p {
+    margin-top: 10px;
+    margin-left: 14px;
+    font-size: 22px;
+    color: #0d34a0;
+}
+
+.pedidosstatus {
+    margin-left: 410px;
+    margin-top: -47px;
+}
+
+.pedidosstatus p {
+    font-size: 18px;
+}
+
+hr {
+    position: relative;
+    bottom: 20px;
+    width: 95%;
+    height: 1px;
+    border-top: 3px solid white;
+    box-sizing: 5px;
+    background-color: #dddddd;
+}
+
+.status-white {
+    position: relative;
+    width: 95%;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 6px #95acc7;
+}
+
+.status-text {
+    display: flex;
+    gap: 90px;
+}
+
+.status-text span {
+    margin-top: 15px;
+    margin-left: 9px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.status-text input {
+    position: relative;
+    right: 10px;
+    margin-top: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(118, 194, 5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.group-alertas-white {
+    position: relative;
+    bottom: 13px;
+}
+
+.alerta-photo {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+.alerta-photo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+.alertas-white {
+    position: relative;
+    width: 95%;
+    height: 70px;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 6px #95acc7;
+}
+
+.alertas-text {
+    display: flex;
+    gap: 90px;
+}
+
+.alertas-text span {
+    margin-top: 10px;
+    margin-left: -80px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.alertas-subtext p {
+    position: relative;
+    right: 230px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: rgb(56, 56, 56);
+}
+
+.alertas-data p {
+    position: relative;
+    left: 650px;
+    bottom: 330px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    color: rgb(56, 56, 56);
+}
+
+.branca-pedidos {
+    position: relative;
+    bottom: 116px;
+    left: 600px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.branca-pedidos span {
+    position: relative;
+    margin-left: 12px;
+    top: 3px;
+    font-size: 27px;
+    color: #0d34a0;
+}
+
+.pedidosstatus2 {
+    margin-left: 900px;
+    margin-top: -47px;
+}
+
+.pedidosstatus2 p {
+    font-size: 18px;
+}
+
+.branca-pedidos2 {
+    position: relative;
+    bottom: 45px;
+    left: 260px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.branca-pedidos2 span {
+    position: relative;
+    margin-left: 12px;
+    top: 3px;
+    font-size: 27px;
+    color: #0d34a0;
+}
+
+.pedidosstatus3 {
+    margin-left: 410px;
+    margin-top: -47px;
+}
+
+.pedidosstatus3 p {
+    font-size: 18px;
+}
+
+.branca-pedidos3 {
+    position: relative;
+    bottom: 45px;
+    left: 630px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.branca-pedidos3 span {
+    position: relative;
+    margin-left: 12px;
+    top: 3px;
+    font-size: 27px;
+    color: #0d34a0;
+}
+
+.pedidosstatus4 {
+    margin-left: 920px;
+    margin-top: -47px;
+}
+
+.pedidosstatus4 p {
+    font-size: 18px;
+}
+
+.branca-pedidos4 {
+    position: relative;
+    bottom: 45px;
+    left: 192px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.branca-pedidos4 span {
+    position: relative;
+    margin-left: 12px;
+    top: 3px;
+    font-size: 27px;
+    color: #0d34a0;
+}
+
+.pedidosstatus5 {
+    margin-left: 410px;
+    margin-top: -47px;
+}
+
+
+.pedidosstatus5 p {
+    font-size: 18px;
+}
+
+.branca-pedidos5 {
+    position: relative;
+    bottom: 45px;
+    left: 600px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.branca-pedidos5 span {
+    position: relative;
+    margin-left: 12px;
+    top: 3px;
+    font-size: 27px;
+    color: #0d34a0;
+}
+
+.flexivel {
+    display: flex;
+    gap: 150px;
+}
+
+.flexivel p {
+    font-size: 18px;
+}
+
+.carrosel {
+    width: 120vh;
+    margin-left: 27px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.card-flexivel {
+    display: flex;
+    gap: 20px;
+}
+
+.card-white {
+    width: 190px;
+    height: 210px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.card-white img {
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+.card-white span {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.btn-passar {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 47%;
+}

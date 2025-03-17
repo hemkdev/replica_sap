@@ -448,3 +448,44 @@ hr {
     margin-top: 20px;
     margin-left: 47%;
 }
+
+.ultimas-requisicoes {
+    position: relative;
+    bottom: 13px;
+}
+
+.alerta-branco {
+    position: relative;
+    width: 95%;
+    height: 70px;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 6px #95acc7;
+}
+
+.ultima-text {
+    display: flex;
+    gap: 90px;
+}
+
+.ultima-text span {
+    margin-top: 15px;
+    margin-left: 9px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ultima-text input {
+    position: relative;
+    right: 10px;
+    margin-top: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(116, 185, 13);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

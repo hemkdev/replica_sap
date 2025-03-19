@@ -1,1 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+.sidebar {
+    width: 250px;
+    background: #f1f1f1;
+    padding: 10px;
+    border-right: 2px solid #ccc;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background: #ddd;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background: #e0e0e0;
+}
+.dropdown {
+    margin-top: 10px;
+}
+
 

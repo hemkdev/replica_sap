@@ -439,8 +439,11 @@ hr {
 
 .card-white span {
     margin-left: 10px;
+    margin-right: 20px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    display: block;
+   
 }
 
 .btn-passar {
@@ -488,4 +491,10 @@ hr {
     border: none;
     border-radius: 5px;
     color: white;
+}
+
+.buy-btn img {
+    width: 30%;
+    display: block;
+    margin-top: 0;
 }
